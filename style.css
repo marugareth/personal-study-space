@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #292828;
+    color: white;
+    padding: 0px 0px;
+    display: flex;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+header a:hover {
+    color: #f1f1f1;
+}
+
+#navigation {
+    text-align: center;
+    padding: 10px 10px 10px;
+    font-size: 18px;
+}
